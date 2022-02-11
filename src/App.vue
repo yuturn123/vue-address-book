@@ -8,6 +8,7 @@
       <v-spacer></v-spacer>
     </v-toolbar>
     <SideNav />
+    <Hello />
 
     <v-content>
     </v-content>
@@ -17,10 +18,12 @@
 <script>
 import { mapActions } from 'vuex';
 import SideNav from  './components/SideNav';
+import Hello from './components/HelloWorld';
 export default {
   name: 'App',
   components: {
     SideNav,
+    Hello,
   },
   data () {
     return {
