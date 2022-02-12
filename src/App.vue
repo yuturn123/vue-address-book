@@ -4,6 +4,7 @@
       <v-toolbar-side-icon @click="toggleSideMenu"></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase">
         <span>マイアドレス帳</span>
+        <h5>sample</h5>
       </v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
