@@ -3,7 +3,7 @@
     <v-toolbar app>
       <v-toolbar-side-icon @click="toggleSideMenu"></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase">
-        <span>マイアドレス帳</span>
+        <span>マイアドレス帳！！！！！！</span>
 
       </v-toolbar-title>
       <v-spacer></v-spacer>
