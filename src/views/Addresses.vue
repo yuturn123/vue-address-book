@@ -29,6 +29,9 @@
 
 <script>
 export default {
+  created (){
+    this.addresses = this.$state.state.addresses
+  },
   data () {
     return {
       headers: [

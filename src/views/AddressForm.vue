@@ -25,11 +25,20 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
   data () {
     return {
       address: {}
     }
+  },
+  method:{
+    submit(){
+      this.addAddress(this.address)
+      this.$router.push({ name: 'addresses'})
+      this.address = {}
+    },
+    ...mapActions(['addAddress'])
   }
 }
 </script>
