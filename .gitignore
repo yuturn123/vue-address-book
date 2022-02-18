@@ -24,4 +24,5 @@ pnpm-debug.log*
 
 public/index.html
 index.html
-
+src/main.js
+main.js
