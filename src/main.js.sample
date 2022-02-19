@@ -1,0 +1,30 @@
+import Vue from 'vue'
+import './plugins/vuetify'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import firebase from 'firebase'
+
+Vue.config.productionTip = false
+
+
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: firebaseapp.com",
+  projectId: "---",
+  storageBucket: "---.appspot.com",
+  messagingSenderId: "",
+  appId: ":::"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+new Vue({
+  router,
+
+  //以上は以下の省略形
+  //router: router,
+  store,
+
+  render: h => h(App)
+}).$mount('#app')
