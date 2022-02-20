@@ -9,17 +9,17 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
     path: '/addresses',
-    name: 'Addresses',
+    name: 'addresses',
     component: Addresses
   },
   {
     path: '/addresses/:address_id?/edit',
-    name: 'Address_edit',
+    name: 'address_edit',
     component: AddressForm
   },
   {
